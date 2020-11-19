@@ -27,5 +27,6 @@ async def on_message(message):
 
     if message.author.name == 'Roro' or message.author.name == 'ElectricMercenary':
         await message.channel.send('<@416173367649894400> L')
+        await message.delete()
 
 client.run(os.environ['TOKEN'])
