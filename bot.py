@@ -22,10 +22,10 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.author == 'azraxel5':
+    if message.author.name == 'azraxel5':
         await message.channel.send('<@722427790871363584 L')
 
-    if message.author == 'Roro':
+    if message.author.name == 'Roro' or message.author.name == 'ElectricMercenary':
         await message.channel.send('<@416173367649894400 L')
 
 client.run(os.environ['TOKEN'])
