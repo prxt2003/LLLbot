@@ -23,9 +23,9 @@ async def on_message(message):
         return
 
     if message.author.name == 'azraxel5':
-        await message.channel.send('<@722427790871363584 L')
+        await message.channel.send('<@722427790871363584> L')
 
     if message.author.name == 'Roro' or message.author.name == 'ElectricMercenary':
-        await message.channel.send('<@416173367649894400 L')
+        await message.channel.send('<@416173367649894400> L')
 
 client.run(os.environ['TOKEN'])
